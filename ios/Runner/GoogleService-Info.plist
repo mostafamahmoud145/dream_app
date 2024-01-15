@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>459951819490-bs5ckj7g186d8osuqelerk3tn381imbp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.459951819490-bs5ckj7g186d8osuqelerk3tn381imbp</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>459951819490-2frq9mh758k2vo595560e8ttqihb8j9r.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDscunyLuw7fCg95Jpgw3OHOFMQrXJkF4I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>459951819490</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.abdulazizAhmed.dream</string>
+	<key>PROJECT_ID</key>
+	<string>dream-43bb8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dream-43bb8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:459951819490:ios:51e5345b7bbb87665b2cbb</string>
+	<key>DATABASE_URL</key>
+	<string>https://dream-43bb8-f2c7f.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>

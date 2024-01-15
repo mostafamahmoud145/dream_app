@@ -1,0 +1,153 @@
+
+import 'package:another_flushbar/flushbar.dart';
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:grocery_store/config/app_shadow.dart';
+import 'package:grocery_store/config/app_values.dart';
+import 'package:grocery_store/config/colorsFile.dart';
+import 'package:grocery_store/localization/localization_methods.dart';
+import 'package:grocery_store/models/DevelopTechSupport.dart';
+import 'package:grocery_store/models/user.dart';
+import 'package:grocery_store/screens/DevelopTechSupport/developMessageScreen.dart';
+import 'package:intl/intl.dart';
+
+class DevelopListItem extends StatelessWidget {
+  final Size size;
+  final DevelopTechSupport item;
+  final GroceryUser user;
+  const DevelopListItem({
+    required this.size,
+    required this.item, required this.user,
+
+  });
+  void showSnack(String text, BuildContext context) {
+    Flushbar(
+      margin: const EdgeInsets.all(8.0),
+      borderRadius: BorderRadius.circular(7),
+      backgroundColor: Colors.green.shade500,
+      animationDuration: Duration(milliseconds: 300),
+      isDismissible: true,
+      boxShadows: [
+        AppShadow.primaryShadow
+      ],
+      shouldIconPulse: false,
+      duration: Duration(milliseconds: 2000),
+      icon: Icon(
+        Icons.error,
+        color: AppColors.white,
+      ),
+      messageText: Text(
+        '$text',
+        style: GoogleFonts.poppins(
+          fontSize: 14.0,
+          fontWeight: FontWeight.w500,
+          letterSpacing: 0.3,
+          color: AppColors.white,
+        ),
+      ),
+    )..show(context);
+  }
+  @override
+  Widget build(BuildContext context) {
+    DateFormat dateFormat = DateFormat('MM/dd/yy');
+
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => DevelopMessageScreen(
+              develop: item,
+              user:user,
+
+            ),
+          ),
+        );
+      },
+      child: Column(
+        children: [
+          Container(
+            width: size.width,
+            padding: const EdgeInsets.only(
+                left: 5.0, right: AppPadding.p5, bottom: 10.0, top: AppPadding.p10),
+            decoration: BoxDecoration(
+              color:Theme.of(context).primaryColor,
+              borderRadius: BorderRadius.circular(12.0),
+            ),
+            child: Row(crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+
+                Icon( Icons.lightbulb_outline_rounded,size: 40.0,color:AppColors.white ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 5,right: AppPadding.p5),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.max,
+                    children: <Widget>[
+                      Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, mainAxisSize: MainAxisSize.max,
+                        children: [
+                          Container(width:size.width*.5,
+                            child: Text(
+                             item.userName,
+                              style: TextStyle( fontFamily: getTranslated(context, 'Ithra'),
+                                fontSize: 14.5,
+                                color:AppColors.white,
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 0.3,
+                              ),
+                            ),
+                          ),
+                          Text(
+                            // date,
+                            item.sendTime!=null? '${dateFormat.format(item.sendTime.toDate())}':'..',
+                            style: TextStyle( fontFamily: getTranslated(context, 'Ithra'),
+                              fontSize: 13.0,
+                              color: AppColors.white,
+                              fontWeight: FontWeight.w400,
+                              letterSpacing: 0.3,
+                            ),
+                          ),
+                        ],
+                      ),
+                      Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Container(width: size.width*.6,
+                            child: item.title==null?SizedBox():(item.title!="imageFile"&&item.title!="voiceFile")?Text(
+                              item.title,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: TextStyle( fontFamily: getTranslated(context, 'Ithra'),
+                                fontSize: 13.0,
+                                color: AppColors.white,
+                                fontWeight: FontWeight.w400,
+                                letterSpacing: 0.3,
+                              ),
+                            ):Row(children: [
+                              Icon( Icons.file_copy_outlined,size:15,color: AppColors.white.withOpacity(0.5)),
+                              Text(
+                                getTranslated(context, "attatchment"),
+                                style: TextStyle( fontFamily: getTranslated(context, 'Ithra'),
+                                  fontSize: 13.0,
+                                  color: AppColors.white,
+                                  fontWeight: FontWeight.w400,
+                                  letterSpacing: 0.3,
+                                ),),
+                            ],),
+                          ),
+                          SizedBox(width: 2,),
+                        ],
+                      ),
+
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+          SizedBox(height: 10,),
+        ],
+      ),
+    );
+  }
+}

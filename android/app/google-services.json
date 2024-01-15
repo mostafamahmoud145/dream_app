@@ -1,0 +1,215 @@
+{
+  "project_info": {
+    "project_number": "459951819490",
+    "firebase_url": "https://dream-43bb8-f2c7f.europe-west1.firebasedatabase.app",
+    "project_id": "dream-43bb8",
+    "storage_bucket": "dream-43bb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459951819490:android:20fb5f97264b3bc65b2cbb",
+        "android_client_info": {
+          "package_name": "com.abdulaziz.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459951819490-6lj9rpd01ruil63tcivjkhf3ihk8bu00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdulaziz.admin",
+            "certificate_hash": "2f77fa52cbff6eb4b8e9a970137ccd022e0c3715"
+          }
+        },
+        {
+          "client_id": "459951819490-vgj7f9md5005j4t73mkrtkuf5ncamg9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh_6ZdeAieM8-27vtPVQdajF_-z_ynmK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117967633791034721138",
+              "client_type": 3
+            },
+            {
+              "client_id": "459951819490-bs5ckj7g186d8osuqelerk3tn381imbp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.abdulazizAhmed.dream",
+                "app_store_id": "1515745954"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459951819490:android:9e37c102219548355b2cbb",
+        "android_client_info": {
+          "package_name": "com.abdulazizahmed.dream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459951819490-2frq9mh758k2vo595560e8ttqihb8j9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdulazizahmed.dream",
+            "certificate_hash": "2f77fa52cbff6eb4b8e9a970137ccd022e0c3715"
+          }
+        },
+        {
+          "client_id": "459951819490-5cb2eg2997ql17hh897jt26fdlc0jmli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdulazizahmed.dream",
+            "certificate_hash": "dee7f83ccf6dfb1bb75755b31b11f9f25a8a35c2"
+          }
+        },
+        {
+          "client_id": "459951819490-8ukfk7rvf9b9mqp8estm1ggqsbsrvrv8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdulazizahmed.dream",
+            "certificate_hash": "83a3961383e0e204d7fd80845abf8da0ff77ff6e"
+          }
+        },
+        {
+          "client_id": "459951819490-hj16sq6j34r9aa3vmu8cl6lbuq6oqsl1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdulazizahmed.dream",
+            "certificate_hash": "289b0109e082f4f19ab21147ae0106d6ce62cd00"
+          }
+        },
+        {
+          "client_id": "459951819490-moqon4mqm4a5eqash9206n9u6r9sc7jd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdulazizahmed.dream",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "459951819490-trtaqp6caa4fg94eekuhje8pc1jpcdvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdulazizahmed.dream",
+            "certificate_hash": "6d12fc9f38294590a9fd3059da68ecf94da66994"
+          }
+        },
+        {
+          "client_id": "459951819490-vgj7f9md5005j4t73mkrtkuf5ncamg9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh_6ZdeAieM8-27vtPVQdajF_-z_ynmK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117967633791034721138",
+              "client_type": 3
+            },
+            {
+              "client_id": "459951819490-bs5ckj7g186d8osuqelerk3tn381imbp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.abdulazizAhmed.dream",
+                "app_store_id": "1515745954"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459951819490:android:4718156eb04f3aa45b2cbb",
+        "android_client_info": {
+          "package_name": "com.dream.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459951819490-vgj7f9md5005j4t73mkrtkuf5ncamg9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh_6ZdeAieM8-27vtPVQdajF_-z_ynmK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117967633791034721138",
+              "client_type": 3
+            },
+            {
+              "client_id": "459951819490-bs5ckj7g186d8osuqelerk3tn381imbp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.abdulazizAhmed.dream",
+                "app_store_id": "1515745954"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459951819490:android:d0d50a891cbd72735b2cbb",
+        "android_client_info": {
+          "package_name": "com.example.analytics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459951819490-vgj7f9md5005j4t73mkrtkuf5ncamg9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh_6ZdeAieM8-27vtPVQdajF_-z_ynmK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117967633791034721138",
+              "client_type": 3
+            },
+            {
+              "client_id": "459951819490-bs5ckj7g186d8osuqelerk3tn381imbp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.abdulazizAhmed.dream",
+                "app_store_id": "1515745954"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

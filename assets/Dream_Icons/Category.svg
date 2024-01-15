@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.5" height="24.5" viewBox="0 0 24.5 24.5">
+    <g data-name="Iconly/Two-tone/Category">
+        <path data-name="Stroke 1" d="M0 4.472C0 1.118.036 0 4.472 0s4.472 1.118 4.472 4.472.014 4.472-4.472 4.472S0 7.827 0 4.472z" transform="translate(.75 .75)" style="fill:none;stroke:#9c3981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px"/>
+        <path data-name="Stroke 3" d="M0 4.472C0 1.118.036 0 4.472 0s4.472 1.118 4.472 4.472.014 4.472-4.472 4.472S0 7.827 0 4.472z" transform="translate(14.806 .75)" style="opacity:.4;fill:none;stroke:#9c3981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px"/>
+        <path data-name="Stroke 5" d="M0 4.472C0 1.118.036 0 4.472 0s4.472 1.118 4.472 4.472.014 4.472-4.472 4.472S0 7.827 0 4.472z" transform="translate(.75 14.806)" style="fill:none;stroke:#9c3981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px"/>
+        <path data-name="Stroke 7" d="M0 4.472C0 1.118.036 0 4.472 0s4.472 1.118 4.472 4.472.014 4.472-4.472 4.472S0 7.827 0 4.472z" transform="translate(14.806 14.806)" style="fill:none;stroke:#9c3981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px"/>
+    </g>
+</svg>

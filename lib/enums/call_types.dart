@@ -1,0 +1,2 @@
+
+enum CallType {agora, jitsi}
